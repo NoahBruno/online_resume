@@ -1,0 +1,50 @@
+*{
+    margin:0;
+}
+
+.resume{
+    text-align: center;
+    background-color: #cbffcd;
+}
+
+.top{
+    font-size: xx-large;
+}
+
+.job_title{
+    font-size: large;
+}
+
+.resume_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.resume_left{
+    text-align: center;
+    border:5px solid green;
+    height:400px;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.resume_right{
+    text-align: center;
+    border:5px solid green;
+    height:400px;
+    width: 50%;
+    margin-left: 10px;
+}
+.resume_title{
+    margin:20px;
+}
+
+.resume_content{
+    margin:50px;
+}
+
+ul{
+    display: table;
+    margin:0 auto;
+}
