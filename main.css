@@ -2,13 +2,14 @@
     margin:0;
 }
 
-html{
-    /*border:50px solid rgba(196, 168, 46, 0.6);*/
+body{
+    background: #1B1B25;
+    color: #fff;
 }
 
 .resume{
     text-align: center;
-    background-color:rgba(196, 168, 46, 0.6);
+    background-color: rgba(135, 204, 151, 0.6);
 }
 
 .img1{
@@ -19,7 +20,6 @@ html{
 .media{
     height:100px;
     position: relative;
-    background-image: url("https://tapgfrazier.files.wordpress.com/2017/06/wind.gif");
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -31,55 +31,57 @@ html{
 
 a{
     text-decoration: none;
-    color:black;
+    color:whitesmoke;
 }
 
 .top{
     font-size: 50px;
-    color: antiquewhite;
+    color: whitesmoke;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
 
 .job_title{
     font-size: 35px;
-    color: antiquewhite;
+    color: whitesmoke;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
 
 .about_me{
     font-size: 20px;
-    color: antiquewhite;
+    color:whitesmoke;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
 
 .resume_bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    font-size: x-large;
 }
 
 .resume_left{
     text-align: center;
-    height:400px;
-    width: 50%;
 }
 
 .resume_right{
     text-align: center;
-    height:400px;
-    width: 50%;
 }
 .resume_title{
     margin:20px;
+    font-weight: bold;
 }
 
-.resume_content{
-    margin:50px;
+li{
+    text-align: left;
 }
 
-ul{
-    display: table;
-    margin:0 auto;
+@media screen and (max-width:576px){
+    .media{
+        font-size: small;
+    }
+    .resume_bottom{
+        font-size: small;
+    }
 }
